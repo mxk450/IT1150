@@ -1,0 +1,121 @@
+head {
+background-color: #5daa68;
+}
+
+div {
+	background-color: #415A43;
+}
+
+#homePage {
+	background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.pexels.com%2Fphotos%2F745425%2Fpexels-photo-745425.jpeg&f=1&nofb=1");
+	background-color: #415A43;
+	background-origin: content-box;
+	margin: 0;
+	margin-top: 0;
+}
+
+#storePage {
+	background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.pexels.com%2Fphotos%2F745425%2Fpexels-photo-745425.jpeg&f=1&nofb=1");
+	background-color: #415A43;
+	margin: 0;
+	margin-top: 0;
+}
+
+#orderPage {
+	background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.pexels.com%2Fphotos%2F745425%2Fpexels-photo-745425.jpeg&f=1&nofb=1");
+	background-color: #415A43;
+	margin: 0;
+	margin-top: 0;
+}
+
+.header {
+	margin: 0;
+	color: #faf1cf;
+	text-shadow: 2px 2px #3f6844;
+	font-family: "Lucida Console";
+	text-align: center;
+}
+
+.motto {
+	color: #faf1cf;
+	font-family: "Lucida Console";
+	text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom-style: solid;
+  border-bottom-color: #faf1cf;
+  background-color: ##5daa68;
+}
+
+li {
+  float: left;
+  text-align: center;
+  font-size: 25px;
+}
+
+li a {
+  display: block;
+  color: #faf1cf;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #667A68;
+}
+
+#about {
+	color: #faf1cf;
+	background-color: #415A43;
+	width: 600px;
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	border-style: solid;
+	padding: 25px;
+}
+
+#storeTable {
+	color: #faf1cf;
+	background-color: #415A43;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	font-size: 35px;
+	width: auto;
+	border-style: solid;
+	border-color: #faf1cf;
+	border-spacing: 90px;
+}
+
+.cornImage {
+	width: 300px;
+	height: 300px;
+	border-style: solid;
+	border-color: #1E4023;
+	border-width: 5px;
+	float: top;
+	background-color: white;
+}
+
+.orderForm {
+	color: #faf1cf;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	font-size: 35px;
+	width: 500px;
+	text-align: center;
+	border-style: solid;
+}
