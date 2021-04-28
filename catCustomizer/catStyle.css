@@ -1,0 +1,59 @@
+body {
+	background-image: linear-gradient(#B0E0E6, #8CB3B8, #B0E0E6);
+}
+
+h1 {
+	font-family: Monospace;
+	font-size: 60px;
+	color: white;
+}
+
+#head {
+	z-index: -1;
+	position: absolute;
+	left: auto;
+	right: auto;
+}
+
+#eyes {
+	position: absolute;
+	left: auto;
+	right: auto;
+}
+
+#hat {
+	position: absolute;
+	left: auto;
+	right: auto;
+}
+
+#mouth {
+	position: absolute;
+	left: auto;
+	right: auto;
+}
+
+button {
+	background-color: DarkBlue;
+	color: white;
+	border: white;
+	font-size: 30px;
+	padding: 20px;
+	margin: 12px;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: White;
+	color: DarkBlue;
+	border: solid DarkBlue;
+	transition: 0.5s;
+}
+
+.cat {
+	padding-bottom: 100px;
+}
+
+.buttons {
+	padding-top: 700px;
+}

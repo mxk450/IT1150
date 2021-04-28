@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cat Customizer</title>
+
+<link rel="stylesheet" href="catStyle.css">
+</head>
+
+<body>
+
+<h1>The Cat Customizer</h1>
+
+<div class="cat">
+<img id="head" src="images/heads/catHeadGray.png" alt="Gray Cat Head">
+<img id="eyes" src="images/eyes/eyes.png" alt="Cat Eyes">
+<img id="hat" src="images/hat/propeller.png" alt="Propeller Hat">
+<img id="mouth" src="images/mouth/frown.png" alt="Frowning Cat Mouth">
+</div>
+
+
+<div class="buttons">
+<button onclick=OrangeButton()>Orange Cat</button>
+<button onclick=SunglassesButton()>Sunglasses</button>
+<button onclick=CrownButton()>Crown</button>
+<button onclick=SmileButton()>Smiling</button>
+</div>
+
+<div>
+<button onclick=GrayButton()>Gray Cat</button>
+<button onclick=EyesButton()>Eyes</button>
+<button onclick=PropellerButton()>Propeller Hat</button>
+<button onclick=FrownButton()>Frowning</button>
+</div>
+
+<script>
+
+var meowSound = new Audio("sfx/meow.mp3");
+
+function OrangeButton()
+{
+	document.getElementById("head").src="images/heads/catHeadOrange.png";
+	document.getElementById("head").alt="Orange Cat Head";
+	meowSound.play();
+}
+
+function SunglassesButton()
+{
+	document.getElementById("eyes").src="images/eyes/sunglasses.png";
+	document.getElementById("eyes").alt="Sunglasses";
+	meowSound.play();
+}
+
+function CrownButton()
+{
+	document.getElementById("hat").src="images/hat/crown.png";
+	document.getElementById("hat").alt="Crown";
+	meowSound.play();
+}
+	
+function SmileButton()
+{
+	document.getElementById("mouth").src="images/mouth/smile.png";
+	document.getElementById("mouth").alt="Smiling Cat Mouth";
+	meowSound.play();
+}
+
+function GrayButton()
+{
+	document.getElementById("head").src="images/heads/catHeadGray.png";
+	document.getElementById("head").alt="Gray Cat Head";
+	meowSound.play();
+}
+
+function EyesButton()
+{
+	document.getElementById("eyes").src="images/eyes/eyes.png";
+	document.getElementById("eyes").alt="Cat Eyes";
+	meowSound.play();
+}
+
+function PropellerButton()
+{
+	document.getElementById("hat").src="images/hat/propeller.png";
+	document.getElementById("hat").alt="Propeller Hat";
+	meowSound.play();
+}
+	
+function FrownButton()
+{
+	document.getElementById("mouth").src="images/mouth/frown.png";
+	document.getElementById("mouth").alt="Frowning Cat Mouth";
+	meowSound.play();
+}
+
+</script>
+
+</body>
+
+</html>
