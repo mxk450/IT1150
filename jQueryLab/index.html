@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+
+<title>Important Internet Organizations</title>
+
+
+</head>
+<body>
+
+<h1 class="header">Click the Boxes Below to Learn More!</h1>
+
+<section class="col-1" id="ietf">
+<h2>Internet Engineering Task Force</h2>
+<p id="info1"><a href="https://www.ietf.org/">The IETF</a> is an international group of network designers, operators, vendors, and researchers dedicated to the evolution of Internet architecture.
+ The organization produces documents that outline influence the way the Internet is designed, used, and managed. One specific issue the IETF involves itself with is privacy and security on the Inernet.</p>
+</section>
+
+<section class="col-2" id="icann">
+<h2>Internet Corporation for Assigned Names and Numbers</h2>
+<p id="info2"><a href="https://www.icann.org/">ICANN</a> is a nonprofit dedicated to coordinating the maintenance of databases related to namespaces and numerical spaces on the Internet.
+ One specific effort ICANN coordinates is managing IP addresses so that there are no identical addresses.</p>
+</section>
+
+<section class="col-3" id="wwwc">
+<h2>World Wide Web Consortium</h2>
+<p id="info3"><a href="https://www.w3.org/">The W3C</a> is an international community dedicated to establishing web standards.
+ For example, the organization supports web design that allows all people to access webpages, with standards to ensure those with different disabilities can still navigate the webpages.</p>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#ietf").click(function(){
+$("#info1").slideToggle("slow");
+$("#info2").slideUp("slow");
+$("#info3").slideUp("slow");
+});
+});
+$(document).ready(function(){
+$("#icann").click(function(){
+$("#info2").slideToggle("slow");
+$("#info1").slideUp("slow");
+$("#info3").slideUp("slow");
+});
+});
+$(document).ready(function(){
+$("#wwwc").click(function(){
+$("#info3").slideToggle("slow");
+$("#info1").slideUp("slow");
+$("#info2").slideUp("slow");
+});
+});
+
+</script>
+
+
+
+</body>
+
+</html>
